@@ -1,8 +1,13 @@
+import Banner from "../../../components/Banner"
+import Contacto from "../../../components/Contacto"
+import ContactoLanding from "../../../components/ContactoLanding"
+
 function ContactoPage() {
     return (
         <div>
-            <h1>Contacto</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, assumenda.</p>
+            <ContactoLanding/>
+            <Banner/>
+            <Contacto/>
         </div>
     )
 }

@@ -2,11 +2,12 @@
 
 import Link from 'next/link'
 import { use, useState } from 'react';
+import Image from 'next/image'
 
 function Navigation() {
 
   const [navBG, setNavBG] = useState(false);
-  const [imgNav, setimgNav] = useState(false);
+  const [ImageNav, setImageNav] = useState(false);
   const [menuMobile, setMenuMobile] = useState(false);
   const [menuWeb, setMenuWeb] = useState(false);
 
@@ -20,10 +21,10 @@ function Navigation() {
     //console.log(window.scrollY);
     if(window.scrollY >= 350) {
       setNavBG(true);
-      setimgNav(true);
+      setImageNav(true);
     } else {
       setNavBG(false);
-      setimgNav(false);
+      setImageNav(false);
     }
   };
 
@@ -47,11 +48,11 @@ function Navigation() {
       <div className={menuWeb ? 'menuWeb active' : 'menuWeb'}>
           <nav className={navBG ? 'navBG active' : 'navBG'}>
           <nav className="navbar navbar-expand-lg navBG">
-            <div className="container  btnMenu">
-                <button className="buttonNav" onClick={toggleMenu}>     
-                <img className="menuBtn" src="\menu.svg" alt="Menu"/>
+            <div className="container btnMenu">
+                <button className="buttonNav" onClick={toggleMenu} width="100%">     
+                  <Image className="menuBtn" src="\menu.svg" alt="Menu" width={1000} height={1000} style={{ width: 'auto', height: '100%' }}/>
                 </button>
-                <img className={imgNav ? 'imgNav active' : 'imgNav'} src="\Logo-Arvien.svg" alt="Arvien Logo" height="100%"/>
+                <Image className={ImageNav ? 'ImageNav active' : 'ImageNav'} src="\Logo-Arvien.svg" alt="Arvien Logo" width={0} height={0} style={{ width: 'auto', height: '100%' }}/>
               <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">

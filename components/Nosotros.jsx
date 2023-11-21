@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 function Nosotros() {
     return (
@@ -6,7 +7,7 @@ function Nosotros() {
 
             <div className="nosotros-content container">
 
-                <div className='nosotros-content-info'>
+                <div className='nosotros-content-info col-6'>
                     <div className='text-main-orange'>XX</div>
                     <div className='text-main'>años en el sector farmacéutico e insumos de salud bridando productos con la mejor calidad </div>
                     <div className='text-description-black'>Tenemos presencia nacional.</div>
@@ -15,8 +16,8 @@ function Nosotros() {
                     </div>
                 </div>
 
-                <div className="nosotros-content-img">
-                    <img src="\img1.webp" alt="pharmacy" height="100%"/>
+                <div className="nosotros-content-Image col-6">
+                    <Image src="/img1.webp" alt="pharmacy" width={1000} height={1000} quality={100} style={{ width: 'auto', height: '100%' }}/>
                 </div>
             </div>
         </div>

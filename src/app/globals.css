@@ -87,7 +87,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.nosotros-bg-img {
+.nosotros-bg-Image {
   background: url("./background2.webp");
   background-size: cover;
   background-position: center;
@@ -101,10 +101,32 @@ body {
 }
 
 .contacto-bg {
-  background: url("./background.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.form-control {
+  border-color: #E78441 !important;
+}
+
+.form-control:focus {
+  border-color: #E78441 !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #E78441CC !important;
+}
+
+.btn-primary {
+  background-color: #E78441 !important;
+  border-color: #E78441 !important;
+}
+
+.btn-primary:hover {
+  background-color: #a35a29 !important;
+  border-color: #a35a29 !important;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 a {
@@ -191,7 +213,7 @@ a {
   flex-direction: column;
   padding-top: 7vh;
   padding-bottom: 5vh;
-  justify-content: space-between;
+  justify-content: stretch;
   flex-wrap: wrap;
   align-content: flex-end;
 }
@@ -765,6 +787,15 @@ user agent stylesheet li {
   text-align: right;
 }
 
+.text-orange-contacto-2 {
+  color: #E78341;
+  font-size: 2vw;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: right;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 700px) {
   .text-main-orange {
     font-size: 20vw;
@@ -946,11 +977,11 @@ nav {
   background: #E78341;
 }
 
-.imgNav {
+.ImageNav {
   display: none;
 }
 
-.imgNav.active{
+.ImageNav.active{
   display: block;
 }
 
@@ -1021,10 +1052,10 @@ nav {
   .navBG.active {
     display: block;
   }
-  .imgNav{
+  .ImageNav{
     display: none;
   }
-  .imgNav.active {
+  .ImageNav.active {
     display: none;
   }
   .container {
@@ -1070,10 +1101,10 @@ nav {
   .navBG.active {
     display: block;
   }
-  .imgNav{
+  .ImageNav{
     display: none;
   }
-  .imgNav.active {
+  .ImageNav.active {
     display: none;
   }
   .menuBtn{

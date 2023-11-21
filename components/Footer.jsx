@@ -1,10 +1,11 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 function Footer() {
     return (
         <div className="footer-content">
             <div className="logo-footer">
-                <img src="\Group 1.png" alt="Arvien" height="100%"/>
+                <Image src="/Group 1.png" alt="Arvien" width={1000} height={1000} style={{ width: '100%', height: 'auto' }}/>
             </div>
             <div className="info">
                 <div className="orange-bg">
