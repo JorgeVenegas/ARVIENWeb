@@ -2,7 +2,7 @@ import { ContactForm } from "../src/app/form"
 
 function Contacto() {
     return (
-        <div id="contactForm" className="contacto-bg" style={{ backgroundColor: "transparent", width: '100vw', height: '100vh'}}>
+        <div id="contactForm" className="contacto-bg" style={{ backgroundColor: "transparent", width: '100vw'}}>
             <div className="container contacto-content">
                 <div className="text-orange-contacto">¡Contáctanos!</div>
                 <a className="text-black-contacto-2" href="mailto:cotizaciones@arvien.com.mx">cotizaciones@arvien.com.mx</a>
