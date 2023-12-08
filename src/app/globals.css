@@ -94,6 +94,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.nosotros-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .page-fondo {
   background-color: transparent;
   width: 100vw;
@@ -136,6 +143,7 @@ a {
 
 .row {
   align-items: center;
+  height: 15vh;
 }
 
 .nosotros-content {
@@ -200,7 +208,7 @@ a {
 
 .footer-text {
   color: white;
-  font-size: 2vh;
+  font-size: 2.5vh;
   font-weight: bold;
   line-height: auto;
   letter-spacing: 0em;
@@ -211,11 +219,10 @@ a {
 .nosotros-content-page {
   display: flex;
   flex-direction: column;
-  padding-top: 7vh;
-  padding-bottom: 5vh;
-  justify-content: stretch;
+  padding-bottom: 0vh;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  align-content: flex-end;
+  align-content: center;
 }
 
 .nosotros-bg {
@@ -249,7 +256,7 @@ a {
 .header-socios {
   text-align: right;
   font-size: 4vw;
-  padding-top: 10vh;
+  padding-top: 4vh;
   padding-bottom: 0vh;
   color: #E78341;
   font-weight: 600;
@@ -260,8 +267,8 @@ a {
 .header-clientes {
   text-align: left;
   font-size: 4vw;
-  padding-top: 10vh;
-  padding-bottom: 0vh;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
   color: #E78341;
   font-weight: 600;
   line-height: 80px;
@@ -311,7 +318,7 @@ a {
 }
 
 .galery {
-  padding-top: 5vh;
+  padding-top: 0vh;
   padding-bottom: 10vh;
 }
 
@@ -443,7 +450,7 @@ a {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font: 'Heavitas';
-  font-size: 16px
+  font-size: 2.5vh
     /*var(--bs-nav-link-font-size)*/
   ;
   font-weight: bold
@@ -711,8 +718,19 @@ user agent stylesheet li {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0em;
-  text-align: left;
-  padding-bottom: 1%;
+  display: flex;
+  align-items: center;
+  height: 15vh;
+}
+
+.logo-nosotros {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-around;
+  padding-right: 10%;
+  padding-top: 3%;
 }
 
 @media screen and (max-width: 700px) {
@@ -760,11 +778,12 @@ user agent stylesheet li {
 
 .text-main-orange {
   color: #E78341;
-  font-size: 6vw;
-  font-weight: 600;
-  line-height: 80px;
+  font-size: 8vw;
+  font-weight: 900;
+  line-height: 15vh;
   letter-spacing: 0em;
-  text-align: left
+  text-align: left;
+  padding-bottom: 3vh;
 }
 
 .text-right {
@@ -772,8 +791,8 @@ user agent stylesheet li {
 }
 
 .btn-nosotros-page {
-  padding-top: 5%;
-  padding-bottom: 7%;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
   display: flex;
   justify-content: flex-end;
 }
@@ -787,8 +806,8 @@ user agent stylesheet li {
   text-align: right;
 }
 
-.text-orange-contacto-2 {
-  color: #E78341;
+.text-black-contacto-2 {
+  color: black;
   font-size: 2vw;
   font-weight: 600;
   letter-spacing: 0em;
@@ -868,7 +887,7 @@ user agent stylesheet li {
 }
 
 .paddingTop-content-page {
-  padding-top: 3vh;
+  padding-top: 2%;
 }
 
 @media screen and (max-width: 700px) {
@@ -987,8 +1006,8 @@ nav {
 
 .menuBtn {
   color: white;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: none;
 }
 

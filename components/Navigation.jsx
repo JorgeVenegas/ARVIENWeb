@@ -61,9 +61,6 @@ function Navigation() {
                   <li className="nav-item">
                     <Link className="nav-link1" href="/nosotros">Nosotros</Link>
                   </li>
-                  <li className="nav-item">
-                    <button className="btn-orange-nav" type="button"><Link className="nav-link1" href="/contacto">CONTACTO</Link></button>
-                  </li>
                 </ul>
               </div>
             </div>

@@ -5,19 +5,13 @@ function Footer() {
     return (
         <div className="footer-content">
             <div className="logo-footer">
-                <Image src="/Group 1.png" alt="Arvien" width={1000} height={1000} style={{ width: '100%', height: 'auto' }}/>
+                <Image src="/Group 1.png" alt="Arvien" width={1000} height={1000} style={{ width: '110%', height: 'auto' }}/>
             </div>
             <div className="info">
                 <div className="orange-bg">
                     <div className='footer-info'>
                             <div>
                                 <Link className="footer-text" href="/">INICIO</Link>
-                            </div>
-                            <div>
-                                <Link className="footer-text" href="/nosotros">NOSOTROS</Link>
-                            </div>
-                            <div>
-                                <Link className="footer-text" href="/contacto">CONTACTO</Link>
                             </div>
                     </div>
                     <div className="footer-mail">
