@@ -2,12 +2,11 @@ import { ContactForm } from "../src/app/form"
 
 function Contacto() {
     return (
-        <div id="contactForm" className="contacto-bg" style={{ backgroundColor: "transparent", width: '100vw', height: '100vh', paddingTop: "10vh"}}>
+        <div id="contactForm" className="contacto-bg" style={{ backgroundColor: "transparent", width: '100vw'}}>
             <div className="container contacto-content">
-                <div className="text-main-contacto">¿Qué esperas?</div>
                 <div className="text-orange-contacto">¡Contáctanos!</div>
-                <a className="text-orange-contacto-2" href="mailto:cotizaciones@arvien.com.mx">cotizaciones@arvien.com.mx</a>
-                <a className="text-orange-contacto-2" href="mailto:recursos_humanos@arvien.com.mx">recursos_humanos@arvien.com.mx</a>
+                <a className="text-black-contacto-2" href="mailto:cotizaciones@arvien.com.mx">cotizaciones@arvien.com.mx</a>
+                <a className="text-black-contacto-2" href="mailto:recursos_humanos@arvien.com.mx">recursos_humanos@arvien.com.mx</a>
 
                 <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
                     <div class="modal-dialog">

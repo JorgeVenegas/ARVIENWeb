@@ -50,7 +50,7 @@ function Navigation() {
           <nav className="navbar navbar-expand-lg navBG">
             <div className="container btnMenu">
                 <button className="buttonNav" onClick={toggleMenu} width="100%">     
-                  <Image className="menuBtn" src="\menu.svg" alt="Menu" width={1000} height={1000} style={{ width: 'auto', height: '100%' }}/>
+                  <Image className="menuBtn" src="\menu.svg" alt="Menu" width={1000} height={1000} style={{ width: 'auto'}}/>
                 </button>
                 <Image className={ImageNav ? 'ImageNav active' : 'ImageNav'} src="\Logo-Arvien.svg" alt="Arvien Logo" width={0} height={0} style={{ width: 'auto', height: '100%' }}/>
               <div className="collapse navbar-collapse">
@@ -60,9 +60,6 @@ function Navigation() {
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link1" href="/nosotros">Nosotros</Link>
-                  </li>
-                  <li className="nav-item">
-                    <button className="btn-orange-nav" type="button"><Link className="nav-link1" href="/contacto">CONTACTO</Link></button>
                   </li>
                 </ul>
               </div>

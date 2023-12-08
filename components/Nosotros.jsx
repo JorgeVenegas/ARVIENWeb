@@ -8,11 +8,11 @@ function Nosotros() {
             <div className="nosotros-content container">
 
                 <div className='nosotros-content-info col-6'>
-                    <div className='text-main-orange'>XX</div>
-                    <div className='text-main'>años en el sector farmacéutico e insumos de salud bridando productos con la mejor calidad </div>
+                    <div className='text-main-orange'>20</div>
+                    <div className='text-main'>años en el sector farmacéutico e insumos para la salud, brindando productos con la mejor calidad</div>
                     <div className='text-description-black'>Tenemos presencia nacional.</div>
                     <div style={{ paddingTop: '7%', paddingBottom: '7%' }}>
-                        <button class="btn-white" type="button"><Link className="nav-link2" href="/contacto">¡Contáctanos!</Link></button>
+                        <button class="btn-white" type="button"><Link className="nav-link2" href="#contactForm">¡Contáctanos!</Link></button>
                     </div>
                 </div>
 

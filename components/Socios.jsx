@@ -13,22 +13,22 @@ function Socios() {
             <div className="container text-center galery">
                 <div class="row">
                     <div class="col">
-                        <Image src="/../socios/novartis.webp" alt="NOVARTIS" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../socios/novartis.webp" alt="NOVARTIS" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/astrazeneca.webp" alt="AstraZeneca" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../socios/astrazeneca.webp" alt="AstraZeneca" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/merck.webp" alt="MERCK" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/grunenthal.webp" alt="GRUNENTHAL" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../socios/grunenthal.webp" alt="GRUNENTHAL" width={1000} height={1000} quality={100} style={{ width: '80%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/bd.webp" alt="BD" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/3m.webp" alt="3M" width={1000} height={1000} quality={100} style={{ width: '70%', height: 'auto' }}/>
+                        <Image src="/../socios/3m.webp" alt="3M" width={1000} height={1000} quality={100} style={{ width: '60%', height: 'auto' }}/>
                     </div>
                 </div>
 
@@ -49,19 +49,25 @@ function Socios() {
                         <Image src="/../socios/takeda.webp" alt="TAKEDA" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
                     <div class="col">
+                        <Image src="/../socios/gilead.webp" alt="GILEAD" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                    </div>
+                    <div class="col">
+                        <Image src="/../socios/sanofi.webp" alt="SANOFI" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                    </div>
+                    <div class="col">
                         <Image src="/../socios/carnot-laboratorios.webp" alt="CARNOT-LABORATORIOS" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
-                        <Image src="/../socios/gsk.webp" alt="GSK" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../socios/gsk.webp" alt="GSK" width={1000} height={1000} quality={100} style={{ width: '120%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/leo.webp" alt="LEO" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../socios/leo.webp" alt="LEO" width={1000} height={1000} quality={100} style={{ width: '70%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/organon.webp" alt="ORGANON" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../socios/organon.webp" alt="ORGANON" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/teva.webp" alt="TEVA" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
@@ -72,15 +78,15 @@ function Socios() {
                     <div class="col">
                         <Image src="/../socios/solidfarma.webp" alt="SOLIDFARMA" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
-                </div>
-
-                <div class="row">
                     <div class="col">
                         <Image src="/../socios/tecnofarma.webp" alt="TECNOFARMA" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/grossman.webp" alt="GROSSMAN" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
+                </div>
+
+                <div class="row">
                     <div class="col">
                         <Image src="/../socios/bausch-health.webp" alt="BAUSCH-HEALTH" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
@@ -88,14 +94,11 @@ function Socios() {
                         <Image src="/../socios/valeant.webp" alt="VALEANT" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/ipm.webp" alt="IPM" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../socios/ipm.webp" alt="IPM" width={1000} height={1000} quality={100} style={{ width: '70%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/b_braun.webp" alt="B BRAUN" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
-                </div>
-
-                <div class="row">
                     <div class="col">
                         <Image src="/../socios/synthon.webp" alt="SYNTHON" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
@@ -108,15 +111,15 @@ function Socios() {
                     <div class="col">
                         <Image src="/../socios/hospira.webp" alt="HOSPIRA" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
+                </div>
+
+                <div class="row">
                     <div class="col">
                         <Image src="/../socios/icu medical.webp" alt="ICU MEDICAL" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/grupo humana.webp" alt="GRUPO HUMANA" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
-                </div>
-
-                <div class="row">
                     <div class="col">
                         <Image src="/../socios/kener.webp" alt="KENER" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
