@@ -53,6 +53,7 @@ function Contacto() {
                     </div>
                 </div>
 
+                <div className='form-container'>
                 <form action={"mailto:veljorge@live.com?subject=Contacto%20-%20ARVIEN%20Web&body=Buen%20d%C3%ADa%2C%20.%0D%0A%0D%0A%7Bmessage%7D%0D%0A%0D%0ASaludos%2C%0D%0A%0D%0A%7Bname%7D%20%7BlastName%7D%0D%0A%7Bemail%7D%0D%0A%7BphoneNumber%7D%0D%0A"}>
                     <div class="mb-3">
                         <label for="nameInput" class="form-label">Nombre</label>
@@ -79,6 +80,9 @@ function Contacto() {
                         <input class="btn btn-primary" type="submit" value="Enviar" />
                     </div>
                 </form>
+                </div>
+
+
             </div>
 
         </div>

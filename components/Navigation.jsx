@@ -36,13 +36,13 @@ function Navigation() {
     <div>
       <div className={menuMobile ? 'menuMobile active' : 'menuMobile'}>
             <div>
+              <Image className='' src="\Logo-Arvien.svg" alt="Arvien Logo" width={0} height={0} style={{ width: '100%', height: '100%' }}/>
+            </div>
+            <div>
                 <Link onClick={toggleMenu} className="text-menu-mobile" href="/">INICIO</Link>
             </div>
             <div>
                 <Link onClick={toggleMenu} className="text-menu-mobile" href="/nosotros">NOSOTROS</Link>
-            </div>
-            <div>
-                <button onClick={toggleMenu} className="btn-orange-nav-mobile" type="button"><Link className="text-menu-mobile" href="/contacto">CONTACTO</Link></button>
             </div>
       </div>
       <div className={menuWeb ? 'menuWeb active' : 'menuWeb'}>
