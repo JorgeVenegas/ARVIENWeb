@@ -171,7 +171,7 @@ a {
   padding-left: 7%;
   height: 17vh;
   flex-wrap: wrap;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 
 .footer-mail {
@@ -268,7 +268,6 @@ a {
   text-align: left;
   font-size: 4vw;
   padding-top: 4vh;
-  padding-bottom: 2vh;
   color: #E78341;
   font-weight: 600;
   line-height: 80px;
@@ -319,7 +318,12 @@ a {
 
 .galery {
   padding-top: 0vh;
-  padding-bottom: 10vh;
+  padding-bottom: 2vh;
+}
+
+.clientes-galery {
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
 
 /* Mobile */
@@ -373,19 +377,15 @@ a {
 
   .header-socios {
     text-align: center;
-    padding-top: 7vh;
     font-size: 11vw;
     line-height: normal;
-    padding-bottom: 3vh;
     inline-size: 300px !important;
   }
 
   .header-clientes {
     text-align: center;
-    padding-top: 7vh;
     font-size: 11vw;
     line-height: normal;
-    padding-bottom: 3vh;
     inline-size: 300px !important;
   }
 }
@@ -608,6 +608,16 @@ user agent stylesheet li {
 /* Mobile */
 @media screen and (max-width: 700px) {
 
+  .div-socios-carousel {
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .div-clientes-carousel {
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
   .web {
     display: none;
   }
@@ -654,6 +664,55 @@ user agent stylesheet li {
   align-items: center;
   align-content: center;
   justify-content: center;
+}
+
+.btn-white-socios {
+  background-color: white;
+  border: 3px solid #E78441;
+  box-shadow: 0px 2.2281556129455566px 14.854369163513184px 0px #CB601880;
+  box-shadow: 0px 2.2281556129455566px 14.854369163513184px 0px #00000066;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  border-radius: 25px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.btn-white-clientes {
+  background-color: white;
+  border: 3px solid #E78441;
+  box-shadow: 0px 2.2281556129455566px 14.854369163513184px 0px #CB601880;
+  box-shadow: 0px 2.2281556129455566px 14.854369163513184px 0px #00000066;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  border-radius: 25px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.btn-center-socios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4vh;
+}
+
+.btn-center-clientes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4vh;
+  padding-top: 6vh;
 }
 
 .btext {
@@ -734,6 +793,9 @@ user agent stylesheet li {
 }
 
 @media screen and (max-width: 700px) {
+  .logo-nosotros{
+    display: none;
+  }
   .row {
     justify-content: center;
   }
@@ -786,6 +848,16 @@ user agent stylesheet li {
   padding-bottom: 3vh;
 }
 
+.text-main-orange-num {
+  color: #E78341;
+  font-size: 10vw;
+  font-weight: 900;
+  line-height: 15vh;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 3vh;
+}
+
 .text-right {
   text-align: right;
 }
@@ -818,12 +890,28 @@ user agent stylesheet li {
 @media screen and (max-width: 700px) {
   .text-main-orange {
     font-size: 20vw;
-    line-height: auto;
+    line-height: normal;
+  }
+
+  .text-main-orange-num {
+    font-size: 40vw;
+    line-height: 10vh;
   }
 
   .text-orange-contacto {
-    font-size: 7vw;
-    line-height: 10px;
+    font-size: 10vw;
+    line-height: normal;
+    padding-right: 2vh;
+  }
+
+  .text-black-contacto-2 {
+    font-size: 4vw;
+    line-height: normal;
+    padding-right: 2vh;
+  }
+
+  .form-container {
+    width: 90%;
   }
 }
 
@@ -837,6 +925,12 @@ user agent stylesheet li {
     font-size: 17vw;
     line-height: normal;
   }
+
+  .text-main-orange-num {
+    font-size: 17vw;
+    line-height: normal;
+  }
+
   .text-orange-contacto {
     font-size: 5vw;
     line-height: 40px;
@@ -906,6 +1000,28 @@ user agent stylesheet li {
   .text-main {
     font-size: 8vw;
     line-height: normal;
+    inline-size: 180%;
+  }
+
+  .btn-white{
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-right: 10%;
+  }
+
+  .btn-white-clientes {
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-right: 10%;
+  }
+
+  .btn-white-socios {
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-right: 10%;
   }
 
   .text-main-contacto {

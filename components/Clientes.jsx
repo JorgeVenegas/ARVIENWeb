@@ -11,7 +11,7 @@ function Clientes() {
                 </div>
             </div>
 
-            <div className="container text-center galery">
+            <div className="container text-center galery clientes-galery">
                 <div class="row">
                     <div class="col">
                         <Image src="/../clientes/IMSS.webp" alt="IMSS" width={1000} height={1000} style={{ width: '30%', height: 'auto' }}/>
@@ -32,16 +32,16 @@ function Clientes() {
 
                 <div class="row">
                     <div class="col">
-                        <Image src="/../clientes/ISSTEP.webp" alt="ISSTEP" width={1000} height={1000} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../clientes/ISSTEP.webp" alt="ISSTEP" width={1000} height={1000} style={{ width: '80%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../clientes/ISSSTELEON.webp" alt="ISSSTELEON" width={1000} height={1000} style={{ width: '80%', height: 'auto' }}/>
+                        <Image src="/../clientes/ISSSTELEON.webp" alt="ISSSTELEON" width={1000} height={1000} style={{ width: '75%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../clientes/ISSTECH.webp" alt="ISSTECH" width={1000} height={1000} style={{ width: '70%', height: 'auto' }}/>
+                        <Image src="/../clientes/ISSTECH.webp" alt="ISSTECH" width={1000} height={1000} style={{ width: '60%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../clientes/ISSEG_GTO.webp" alt="ISSEG_GTO" width={1000} height={1000} style={{ width: '60%', height: 'auto' }}/>
+                        <Image src="/../clientes/ISSEG_GTO.webp" alt="ISSEG_GTO" width={1000} height={1000} style={{ width: '50%', height: 'auto' }}/>
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ function Clientes() {
                         <Image src="/../clientes/ISSEMYM.webp" alt="ISSEMYM" width={1000} height={1000} style={{ width: '80%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../clientes/ICHISAL.webp" alt="ICHISAL" width={1000} height={1000} style={{ width: '80%', height: 'auto' }}/>
+                        <Image src="/../clientes/ICHISAL.webp" alt="ICHISAL" width={1000} height={1000} style={{ width: '70%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../clientes/HRAEO.webp" alt="HRAEO" width={1000} height={1000} style={{ width: '80%', height: 'auto' }}/>
@@ -64,23 +64,24 @@ function Clientes() {
                 </div>
             </div>
 
+            <div className='div-clientes-carousel'>
             <div className="socios-carousel content">
                 <div id="carousel-clientes" class="carousel slide c-images" data-bs-ride="true">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <Image class="w-50" src="/../clientes/IMSS.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="IMSS"/>
+                            <Image class="" src="/../clientes/IMSS.webp" width={1000} height={1000} style={{ width: '50%', height: 'auto' }} alt="IMSS"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-50" src="/../clientes/IMSS_Bienestar.webp" width={1000} height={1000} style={{ width: '50%', height: 'auto' }} alt="IMSS_Bienestar"/>
+                            <Image class="" src="/../clientes/IMSS_Bienestar.webp" width={1000} height={1000} style={{ width: '50%', height: 'auto' }} alt="IMSS_Bienestar"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../clientes/SEDENA.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="SEDENA"/>
+                            <Image class="w-100" src="/../clientes/SEDENA.webp" width={1000} height={1000} style={{ width: '100%', height: 'auto' }} alt="SEDENA"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../clientes/SEMAR.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="SEMAR"/>
+                            <Image class="w-100" src="/../clientes/SEMAR.webp" width={1000} height={1000} style={{ width: '100%', height: 'auto' }} alt="SEMAR"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../clientes/ISSSTE.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="ISSSTE"/>
+                            <Image class="w-100" src="/../clientes/ISSSTE.webp" width={1000} height={1000} style={{ width: '100%', height: 'auto' }} alt="ISSSTE"/>
                         </div>
                     </div>
 
@@ -94,7 +95,6 @@ function Clientes() {
                     </button>
                 </div>
             </div>
-
 
             <div className="socios-carousel content">
                 <div id="carousel-clientes2" class="carousel slide c-images" data-bs-ride="true">
@@ -111,9 +111,6 @@ function Clientes() {
                         <div class="carousel-item">
                             <Image class="w-100" src="/../clientes/ISSEG_GTO.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="ISSEG_GTO"/>
                         </div>
-                        <div class="carousel-item">
-                            <Image class="w-100" src="/../clientes/ISSEMYM.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="ISSEMYM"/>
-                        </div>
                     </div>
 
                     <button class="carousel-control-prev" type="button" data-bs-target="#carousel-clientes2" data-bs-slide="prev">
@@ -127,15 +124,14 @@ function Clientes() {
                 </div>
             </div>
 
-
             <div className="socios-carousel content">
                 <div id="carousel-clientes3" class="carousel slide c-images" data-bs-ride="true">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <Image class="w-100" src="/../clientes/ICHISAL.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="ICHISAL"/>
+                            <Image class="w-100" src="/../clientes/ISSEMYM.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="ISSEMYM"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../clientes/HRAEB.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="HRAEB"/>
+                            <Image class="w-100" src="/../clientes/ICHISAL.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="ICHISAL"/>
                         </div>
                         <div class="carousel-item">
                             <Image class="w-100" src="/../clientes/HRAEO.webp" width={1000} height={1000} style={{ width: '60%', height: 'auto' }} alt="HRAEO"/>
@@ -157,6 +153,11 @@ function Clientes() {
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+            </div>
+            </div>
+
+            <div className='btn-center-clientes'>
+                <button class="btn-white-clientes" type="button"><Link className="nav-link2" href="#contactForm">¡Contáctanos!</Link></button>
             </div>
 
         </div>
