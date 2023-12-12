@@ -56,6 +56,7 @@ function Contacto() {
                         <div class="mb-3">
                             <label class="form-label">Destinatario</label>
                             <select name="mailto" class="form-select">
+                                <option selected>Seleccione el destinatario</option>
                                 <option value="cotizaciones@arvien.com.mx">cotizaciones@arvien.com.mx</option>
                                 <option value="recursos_humanos@arvien.com.mx">recursos_humanos@arvien.com.mx</option>
                             </select>
