@@ -52,7 +52,7 @@ function Navigation() {
                 <button className="buttonNav" onClick={toggleMenu} width="100%">     
                   <Image className="menuBtn" src="\menu.svg" alt="Menu" width={1000} height={1000} style={{ width: 'auto'}}/>
                 </button>
-                <Image className={ImageNav ? 'ImageNav active' : 'ImageNav'} src="\Logo-Arvien.svg" alt="Arvien Logo" width={0} height={0} style={{ width: 'auto', height: '100%' }}/>
+                <Image className={ImageNav ? 'ImageNav active' : 'ImageNav'} src="\Logo-Arvien.svg" alt="Arvien Logo" width={0} height={0} style={{ width: 'auto', height: '60px' }}/>
               <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">

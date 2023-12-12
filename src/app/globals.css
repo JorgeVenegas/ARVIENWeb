@@ -111,7 +111,7 @@ body {
   background-color: white;
 }
 
-.form-control {
+.form-control, .form-select {
   border-color: #E78441 !important;
 }
 

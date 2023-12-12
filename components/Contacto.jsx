@@ -2,11 +2,9 @@ import { ContactForm } from "../src/app/form"
 
 function Contacto() {
     return (
-        <div id="contactForm" className="contacto-bg" style={{ backgroundColor: "transparent", width: '100vw'}}>
+        <div id="contactForm" className="contacto-bg" style={{ backgroundColor: "transparent", width: '100vw' }}>
             <div className="container contacto-content">
                 <div className="text-orange-contacto">¡Contáctanos!</div>
-                <a className="text-black-contacto-2" href="mailto:cotizaciones@arvien.com.mx">cotizaciones@arvien.com.mx</a>
-                <a className="text-black-contacto-2" href="mailto:recursos_humanos@arvien.com.mx">recursos_humanos@arvien.com.mx</a>
 
                 <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -47,44 +45,56 @@ function Contacto() {
 
                             </div>
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className='form-container'>
-                <form action={"mailto:veljorge@live.com?subject=Contacto%20-%20ARVIEN%20Web&body=Buen%20d%C3%ADa%2C%20.%0D%0A%0D%0A%7Bmessage%7D%0D%0A%0D%0ASaludos%2C%0D%0A%0D%0A%7Bname%7D%20%7BlastName%7D%0D%0A%7Bemail%7D%0D%0A%7BphoneNumber%7D%0D%0A"}>
-                    <div class="mb-3">
-                        <label for="nameInput" class="form-label">Nombre</label>
-                        <input type="email" class="form-control" id="nameInput" placeholder="e.g. Javier" required />
-                    </div>
-                    <div class="mb-3">
-                        <label for="lastNameInput" class="form-label">Apellido</label>
-                        <input type="email" class="form-control" id="lastNameInput" placeholder="e.g. Ortega" required />
-                    </div>
-                    <div class="mb-3">
-                        <label for="mailInput" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="mailInput" placeholder="e.g. nombre@correo.com" required />
-                    </div>
-                    <div class="mb-3">
-                        <label for="phoneInput" class="form-label">Teléfono</label>
-                        <input type="email" class="form-control" id="phoneInput" placeholder="e.g. 222 123 45 67" required />
-                    </div>
-                    <div class="mb-3">
-                        <label for="messageInput" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="messageInput" rows="3" placeholder="¿Qué nos quieres decir?" required></textarea>
-                    </div>
-                    <div className="submitBtn">
-                        <input class="btn btn-outline-secondary" value="Aviso de privacidad" data-bs-toggle="modal" data-bs-target="#privacyModal" />
-                        <input class="btn btn-primary" type="submit" value="Enviar" />
-                    </div>
-                </form>
+                    <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwXQNA7WrjmBzPkBLCFJrJgDcTILP7GBZ5wq60_FYJGirQmU9AeDpfTv_4R7y6wY07ToA/exec" autoComplete="off">
+                        <div class="mb-3">
+                            <label class="form-label">Destinatario</label>
+                            <select name="mailto" class="form-select">
+                                <option value="cotizaciones@arvien.com.mx">cotizaciones@arvien.com.mx</option>
+                                <option value="recursos_humanos@arvien.com.mx">recursos_humanos@arvien.com.mx</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label">Nombre</label>
+                            <input type="input" name="name" class="form-control" id="nameInput" placeholder="e.g. Javier" required auto />
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastNameInput" class="form-label">Apellido</label>
+                            <input type="input" name="last_name" class="form-control" id="lastNameInput" placeholder="e.g. Ortega" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="mailInput" class="form-label">E-mail</label>
+                            <input type="email" name="mail" class="form-control" id="mailInput" placeholder="e.g. nombre@correo.com" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phoneInput" class="form-label">Teléfono</label>
+                            <input type="phone" name="phone" class="form-control" id="phoneInput" placeholder="e.g. 222 123 45 67" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="messageInput" class="form-label">Mensaje</label>
+                            <textarea name="message" class="form-control" id="messageInput" rows="3" placeholder="¿Qué nos quieres decir?" required></textarea>
+                        </div>
+                        <div className="submitBtn">
+                            <input class="btn btn-outline-secondary" value="Aviso de privacidad" data-bs-toggle="modal" data-bs-target="#privacyModal" />
+                            <input class="btn btn-primary" type="submit" value="Enviar" />
+                        </div>
+                    </form>
                 </div>
 
-
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast" class="toast text-bg-success" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-body">
+                            Su mensaje se ha enviado correctamente.
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
     )
 }
