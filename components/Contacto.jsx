@@ -54,8 +54,9 @@ function Contacto() {
                 <div className='form-container'>
                     <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwXQNA7WrjmBzPkBLCFJrJgDcTILP7GBZ5wq60_FYJGirQmU9AeDpfTv_4R7y6wY07ToA/exec" autoComplete="off">
                         <div class="mb-3">
-                            <label class="form-label">Seleccione el destinatario</label>
+                            <label class="form-label">Destinatario</label>
                             <select name="mailto" class="form-select">
+                                <option selected>Seleccione el destinatario</option>
                                 <option value="cotizaciones@arvien.com.mx">cotizaciones@arvien.com.mx</option>
                                 <option value="recursos_humanos@arvien.com.mx">recursos_humanos@arvien.com.mx</option>
                             </select>
