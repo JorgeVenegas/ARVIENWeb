@@ -1035,7 +1035,8 @@ user agent stylesheet li {
 
   .text-main-white {
     font-size: 2vh;
-    line-height: normal
+    line-height: normal;
+    inline-size: 60vw;
   }
 }
 
