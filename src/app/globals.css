@@ -471,6 +471,10 @@ a {
 
 /* Mobile */
 @media screen and (max-width: 700px) {
+  .submitBtn {
+    inline-size: 80vw;
+
+  }
   .nav-link1 {
     font-size: 17px
     ;
@@ -894,8 +898,8 @@ user agent stylesheet li {
   }
 
   .text-main-orange-num {
-    font-size: 40vw;
-    line-height: 10vh;
+    font-size: 30vw;
+    line-height: 5vh;
   }
 
   .text-orange-contacto {
@@ -998,7 +1002,7 @@ user agent stylesheet li {
   }
 
   .text-main {
-    font-size: 8vw;
+    font-size: 6vw;
     line-height: normal;
     inline-size: 180%;
   }
@@ -1066,7 +1070,7 @@ user agent stylesheet li {
 
 @media screen and (max-width: 700px) {
   .text-description-black {
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: normal;
   }
 

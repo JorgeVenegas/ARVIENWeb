@@ -104,7 +104,7 @@ function Socios() {
                         <Image src="/../socios/synthon.webp" alt="SYNTHON" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/weser pharma.webp" alt="WESER PHARMA" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
+                        <Image src="/../socios/weser-pharma.webp" alt="WESER PHARMA" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/quirmex.webp" alt="QUIRMEX" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
@@ -113,16 +113,16 @@ function Socios() {
                         <Image src="/../socios/hospira.webp" alt="HOSPIRA" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/icu medical.webp" alt="ICU MEDICAL" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
+                        <Image src="/../socios/icu-medical.webp" alt="ICU MEDICAL" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/grupo humana.webp" alt="GRUPO HUMANA" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
+                        <Image src="/../socios/grupo-humana.webp" alt="GRUPO HUMANA" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/kener.webp" alt="KENER" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/pint pharma.webp" alt="PINT PHARMA" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
+                        <Image src="/../socios/pint-pharma.webp" alt="PINT PHARMA" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                 </div>
 
@@ -131,28 +131,28 @@ function Socios() {
                         <Image src="/../socios/accord-farma.webp" alt="ACCORD FARMA" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/LANDSTEINER.webp" alt="LANDSTEINER" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
+                        <Image src="/../socios/landsteiner.webp" alt="LANDSTEINER" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/nipro.webp" alt="NIPRO" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/ARROW-INTERNATIONAL.webp" alt="ARROW INTERNATIONAL" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
+                        <Image src="/../socios/arrow-international.webp" alt="ARROW INTERNATIONAL" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
                         <Image src="/../socios/hollister.webp" alt="HOLLISTER" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/JAYOR.webp" alt="JAYOR" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
+                        <Image src="/../socios/jayor.webp" alt="JAYOR" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/SIEGFRIED.webp" alt="SIEGFRIED" width={1000} height={1000} quality={100} style={{ width: '50%', height: 'auto' }}/>
+                        <Image src="/../socios/siegfried.webp" alt="SIEGFRIED" width={1000} height={1000} quality={100} style={{ width: '50%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/DRENOVAC.webp" alt="DRENOVAC" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
+                        <Image src="/../socios/drenovac.webp" alt="DRENOVAC" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                     <div class="col">
-                        <Image src="/../socios/EEE.webp" alt="EEE" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
+                        <Image src="/../socios/eee.webp" alt="EEE" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }}/>
                     </div>
                 </div>
             </div>
@@ -198,7 +198,7 @@ function Socios() {
                             <Image class="w-100" src="/../socios/sanofi.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="SANOFI"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/GILEAD.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="GILEAD"/>
+                            <Image class="w-100" src="/../socios/gilead.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="GILEAD"/>
                         </div>
                         <div class="carousel-item">
                             <Image class="w-100" src="/../socios/carnot-laboratorios.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="CARNOT-LABORATORIOS"/>
@@ -256,10 +256,10 @@ function Socios() {
                             <Image class="w-100" src="/../socios/b_braun.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="B BRAUN"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/SYNTHON.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="SYNTHON"/>
+                            <Image class="w-100" src="/../socios/synthon.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="SYNTHON"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/WESER PHARMA.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="WESER PHARMA"/>
+                            <Image class="w-100" src="/../socios/weser-pharma.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="WESER PHARMA"/>
                         </div>
                     </div>
 
@@ -284,43 +284,43 @@ function Socios() {
                             <Image class="w-100" src="/../socios/hospira.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="HOSPIRA"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/icu medical.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="ICU MEDICAL"/>
+                            <Image class="w-100" src="/../socios/icu-medical.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="ICU MEDICAL"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/grupo humana.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="GRUPO HUMANA"/>
+                            <Image class="w-100" src="/../socios/grupo-humana.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="GRUPO HUMANA"/>
                         </div>
                         <div class="carousel-item">
                             <Image class="w-100" src="/../socios/kener.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="KENER"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/pint pharma.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="PINT PHARMA"/>
+                            <Image class="w-100" src="/../socios/pint-pharma.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="PINT PHARMA"/>
                         </div>
                         <div class="carousel-item">
                             <Image class="w-100" src="/../socios/accord-farma.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="ACCORD FARMA"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/LANDSTEINER.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="LANDSTEINER"/>
+                            <Image class="w-100" src="/../socios/landsteiner.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="LANDSTEINER"/>
                         </div>
                         <div class="carousel-item">
                             <Image class="w-100" src="/../socios/nipro.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="NIPRO"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/ARROW-INTERNATIONAL.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="ARROW INTERNATIONAL"/>
+                            <Image class="w-100" src="/../socios/arrow-international.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="ARROW INTERNATIONAL"/>
                         </div>
                         <div class="carousel-item">
                             <Image class="w-100" src="/../socios/hollister.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="HOLLISTER"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/JAYOR.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="JAYOR"/>
+                            <Image class="w-100" src="/../socios/jayor.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="JAYOR"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/SIEGFRIED.webp" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }} alt="SIEGFRIED"/>
+                            <Image class="w-100" src="/../socios/siegfried.webp" width={1000} height={1000} quality={100} style={{ width: '100%', height: 'auto' }} alt="SIEGFRIED"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/DRENOVAC.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="DRENOVAC"/>
+                            <Image class="w-100" src="/../socios/drenovac.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="DRENOVAC"/>
                         </div>
                         <div class="carousel-item">
-                            <Image class="w-100" src="/../socios/EEE.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="EEE"/>
+                            <Image class="w-100" src="/../socios/eee.webp" width={1000} height={1000} quality={100} style={{ width: '90%', height: 'auto' }} alt="EEE"/>
                         </div>
                     </div>
 
